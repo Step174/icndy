@@ -1,0 +1,68 @@
+body {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  overflow-y: scroll; /*центрирует сайт*/
+  font: 18px times new roman, regular;
+  background-color: lightgray;
+}
+
+.center {
+max-width: 900px;
+margin: auto;
+background-color: #c4e9eb;
+}
+
+.header {
+background: url("../img/header-background.jpg") no-repeat;
+background-size: contain;
+height: 492px;
+margin: 0;
+}
+
+.header-logo {
+padding: 30px;
+}
+
+.main-nav li {
+list-style: none;
+display: inline;
+position: relative;
+left: 320px;
+padding-right: 40px;
+top: -120px;
+margin: ;
+}
+
+.main-nav li a {
+color: white;
+text-decoration: none;
+  }
+
+.brands-preview {
+display: inline-block;
+
+}
+
+.gourmet {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+
+}
+
+.charhartt {
+width: 150px;
+  height: 150px;
+  background-color: black;
+}
+
+.adidas {
+width: 150px;
+  height: 150px;
+  background-color: black;
+}
+
+.charhartt, .adidas {
+display: block;
+  float: right;}

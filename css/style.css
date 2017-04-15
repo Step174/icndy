@@ -1,0 +1,155 @@
+body {  
+background: gray;
+margin: 0;
+font: 'Times New Roman', serif;
+}
+
+.wrapper {
+ background: white;
+  width: 900px;
+  height: 1870px;
+  margin:0 auto;
+}
+.header { 
+  width: 900px;
+  height: 492px;
+  background: url("../img/header-background.jpg") no-repeat;
+background-size: contain;
+}
+
+.main-nav li {
+display: inline-block;
+list-style: none;
+position: relative;
+margin-right: 30px;
+top: -80px;
+left: 400px;
+}
+
+.main-nav li a {
+color: white;
+text-decoration: none;
+}
+
+.product {
+  display: inline-block;
+  column-count: 2;/*Колонки*/
+  column-gap: 3px;/*Колонки*/
+  margin-top: 10px;
+  margin-left: 20px;
+
+}
+
+.pro {
+  margin: 20px;
+  break-inside: avoid;/*Это помешает разбитию и распределению содержимого блоков между колонками*/
+}
+.pro1 {
+  width: 530px;
+  height: 440px;
+  margin-top: 0px;
+  background: url("../img/gourmet.jpg") no-repeat;
+  background-size: contain;
+}
+
+.pro2 {
+  width: 250px;
+  height: 210px;
+}
+
+.pro:nth-child(2) {
+  background: url("../img/carhartt.jpg") no-repeat;
+  background-size: contain;
+}
+.pro:nth-child(3) {
+  background: url("../img/adidas.jpg") no-repeat;
+  background-size: contain;
+  margin-top: -5px;
+}
+
+.product2 {
+  column-count: 3;/*Колонки*/
+  column-gap: 0;/*Колонки*/
+  margin-left: 40px;
+  margin-top: -5px;
+}
+
+.pro5 {
+  width: 250px;
+  height: 420px;
+  break-inside: avoid;/*Это помешает разбитию и распределению содержимого блоков между колонками*/
+}
+
+.pro5:first-child {
+  background: url("../img/10deep.jpg") no-repeat;
+  background-size: contain;
+}
+.pro5:nth-child(2) {
+  background: url("../img/palace.jpg") no-repeat;
+  background-size: contain;
+}
+.pro5:last-child {
+  background: url("../img/nike.jpg") no-repeat;
+  background-size: contain;
+}
+
+.insta {
+margin-top: -75px;
+  width: 900px;
+  height: 450px;
+  background: url("../img/instagrarm.jpg") no-repeat;
+  background-size: contain;
+}
+
+.instagram {
+  color: white;
+  text-align: center;
+  padding-top: 178px;
+  font-size: 35px;
+  letter-spacing: 20px;
+  font-weight:  lighter;
+}
+.insta p {
+  color: #f93030;
+  text-align: center;
+  padding-top: px;
+  font-size: 15px;
+  letter-spacing: 10px;
+  font-weight:  lighter;
+}
+}
+
+
+.product div a {
+display: block;
+height: 100%}
+
+.footer-nav  ul li {
+display: inline-block;
+list-style: none;
+position: relative;
+margin-right: 20px;
+top: 22px;
+}
+
+.footer-nav  ul li a {
+color: black;
+text-decoration: none;
+letter-spacing: 5px;
+font-size: 11px;
+font-weight: bold;
+}
+
+.social-btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: relative;
+  top: -27px;
+  left: 740px;
+}
+.btn {
+display: block;
+height: 100%}
+}
